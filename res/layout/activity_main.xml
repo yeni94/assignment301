@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ca.ualberta.cs.omoyeni_travel_expense.MainActivity" >
+
+    <Button
+        android:id="@+id/addNewClaimButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="newClaim"
+        android:text="@string/create_new_claim" />
+
+    <TextView
+        android:id="@+id/claimsPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/claims"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/claimNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addNewClaimButton"
+        android:layout_alignEnd="@+id/addNewClaimButton"
+        android:layout_alignStart="@+id/addNewClaimButton"
+        android:ems="10"
+        android:hint="@string/name_of_claim" >
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:id="@+id/listOfClaims"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/claimNameText"
+        android:layout_alignStart="@+id/claimNameText" >
+
+    </ListView>
+
+</RelativeLayout>

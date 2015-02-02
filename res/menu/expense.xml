@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ca.ualberta.cs.omoyeni_travel_expense.ExpenseActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item android:id="@+id/newExpense" android:title="New Expense" android:onClick="newExpense"></item>
+    <item android:id="@+id/editExpenses" android:title="Edit Expenses" android:onClick="editExpenses"></item>
+
+</menu>
