@@ -33,10 +33,10 @@ public class ExpenseActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	
+	/*
 	public void newExpense(MenuItem menu){
     	Toast.makeText(this, "New Expense", Toast.LENGTH_SHORT).show();
-    	Intent intent = new Intent(ExpenseActivity.this, NewExpenseActivity.class);
-    	startActivity(intent);
-    }
+    	Intent intent2 = new Intent(ExpenseActivity.this, NewExpenseActivity.class);
+    	startActivity(intent2);
+    }*/
 }

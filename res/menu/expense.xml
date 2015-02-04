@@ -7,7 +7,7 @@
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/action_settings"/>
-    <item android:id="@+id/newExpense" android:title="New Expense" android:onClick="newExpense"></item>
-    <item android:id="@+id/editExpenses" android:title="Edit Expenses" android:onClick="editExpenses"></item>
+    <item android:id="@+id/newExpense" android:title="@string/new_expense" android:onClick="newExpense"></item>
+    <item android:id="@+id/editExpenses" android:title="@string/edit_expenses" android:onClick="editExpenses"></item>
 
 </menu>

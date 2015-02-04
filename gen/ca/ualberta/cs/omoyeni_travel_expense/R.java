@@ -25,12 +25,12 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int AmountTextBox=0x7f080006;
-        public static final int CurrencyTextBox=0x7f080007;
+        public static final int AmountTextBox=0x7f080005;
+        public static final int CurrencyTextBox=0x7f080006;
         public static final int action_settings=0x7f080009;
-        public static final int addExpenseButton=0x7f080004;
+        public static final int addExpenseButton=0x7f080007;
         public static final int addNewClaimButton=0x7f080000;
-        public static final int addNewExpenseText=0x7f080005;
+        public static final int addNewExpenseText=0x7f080004;
         public static final int claimNameText=0x7f080002;
         public static final int claimsPage=0x7f080001;
         public static final int deleteClaimItem=0x7f08000d;
@@ -62,8 +62,12 @@ public final class R {
         public static final int create_new_claim=0x7f05000e;
         public static final int currency_e_g_cad_usd=0x7f050008;
         public static final int delete=0x7f05000c;
+        public static final int delete_claim=0x7f050016;
         public static final int edit=0x7f05000a;
+        public static final int edit_claim=0x7f050015;
+        public static final int edit_expenses=0x7f050014;
         public static final int email=0x7f050009;
+        public static final int email_claim=0x7f050017;
         public static final int expense=0x7f050006;
         public static final int hello_world=0x7f050001;
         public static final int name_of_claim=0x7f050005;

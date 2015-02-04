@@ -190,8 +190,8 @@ public class MainActivity extends Activity {
     
     public void editClaim(MenuItem menu){
     	Toast.makeText(this, "Edit Claim", Toast.LENGTH_SHORT).show();
-    	Intent intent = new Intent(MainActivity.this, ExpenseActivity.class);
-    	startActivity(intent);
+    	/*Intent intent = new Intent(MainActivity.this, ExpenseActivity.class);
+    	startActivity(intent);*/
     }
     
     public void deleteClaim(MenuItem menu){

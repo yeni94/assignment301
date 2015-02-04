@@ -21,5 +21,9 @@
     <string name="amount_spent_e_g_195_45_only_numbers_">Amount Spent e.g. 195.45 (only numbers)</string>
     <string name="add_expense">Add Expense</string>
     <string name="name_your_expense">Name your expense</string>
+    <string name="edit_expenses">Edit Expenses</string>
+    <string name="edit_claim">Edit Claim</string>
+    <string name="delete_claim">Delete Claim</string>
+    <string name="email_claim">Email Claim</string>
 
 </resources>
